@@ -1,0 +1,19 @@
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    width:15%;
+    position:absolute;
+    margin-top:5rem;
+}
+
+.list-element {
+    padding:1rem;
+    font: 1rem;
+    text-decoration:none;
+    color:black;
+}
+
+.list-element:hover {
+    background-color:#CBCBCB;
+}
