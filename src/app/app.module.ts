@@ -7,13 +7,15 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { TempComponentComponent } from './temp-component/temp-component.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidenavComponent,
-    TempComponentComponent
+    TempComponentComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

@@ -4,9 +4,20 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { TempComponentComponent } from './temp-component/temp-component.component';
+import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  { path: 'component1', component: TempComponentComponent }
+  { path: '',
+    component: MainComponent,
+    children: [
+      // { 
+      //   path: 'component1', 
+      //   component: TempComponentComponent 
+      // }
+    ]
+  }
+
+  
 ];
 
 @NgModule({
