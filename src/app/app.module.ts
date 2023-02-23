@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
+import { TempComponentComponent } from './temp-component/temp-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    TempComponentComponent
   ],
   imports: [
     BrowserModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
