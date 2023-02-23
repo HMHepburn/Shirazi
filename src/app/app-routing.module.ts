@@ -4,12 +4,17 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { MainComponent } from './main/main.component';
-import { AccordionComponent } from './accordion/accordion.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
+import { TypographyComponent } from './components/typography/typography.component';
 
 const routes: Routes = [
   { path: '',
     component: MainComponent,
     children: [
+      { 
+        path: 'typography', 
+        component: TypographyComponent 
+      },
       { 
         path: 'accordion', 
         component: AccordionComponent 

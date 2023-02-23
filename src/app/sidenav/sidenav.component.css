@@ -17,3 +17,23 @@
 .list-element:hover {
     background-color:#CBCBCB;
 }
+
+.special-topic {
+    padding:1rem;
+    font: 1rem;
+    text-decoration:none;
+    color:black;
+}
+
+.special-topic:hover {
+    background-color:#CBCBCB;
+}
+
+hr {
+    border: 1px solid #929292;
+    display:block;
+    width: 90%;
+    height: 1px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}

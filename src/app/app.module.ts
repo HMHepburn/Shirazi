@@ -7,7 +7,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
-import { AccordionComponent } from './accordion/accordion.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
+import { TypographyComponent } from './components/typography/typography.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AccordionComponent } from './accordion/accordion.component';
     NavbarComponent,
     SidenavComponent,
     MainComponent,
-    AccordionComponent
+    AccordionComponent,
+    TypographyComponent
   ],
   imports: [
     BrowserModule,
