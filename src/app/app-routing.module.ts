@@ -3,17 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { TempComponentComponent } from './temp-component/temp-component.component';
 import { MainComponent } from './main/main.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 const routes: Routes = [
   { path: '',
     component: MainComponent,
     children: [
-      // { 
-      //   path: 'component1', 
-      //   component: TempComponentComponent 
-      // }
+      { 
+        path: 'accordion', 
+        component: AccordionComponent 
+      }
     ]
   }
 

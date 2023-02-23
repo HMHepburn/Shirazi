@@ -3,8 +3,6 @@
     flex-direction: column;
     background-color:#F2F2F2;
     width:20rem;
-    position:fixed;
-    margin-top:4rem;
     overflow:scroll;
     height:100%;
 }

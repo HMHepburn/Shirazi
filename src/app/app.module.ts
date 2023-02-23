@@ -6,16 +6,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { TempComponentComponent } from './temp-component/temp-component.component';
 import { MainComponent } from './main/main.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidenavComponent,
-    TempComponentComponent,
-    MainComponent
+    MainComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
