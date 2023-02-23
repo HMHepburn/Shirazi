@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemeService } from '../theme.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  constructor(private themeService: ThemeService) {}
+  
+  ChangeTheme(): any {
+    this.themeService.changeActiveTheme();
+  }
 }
