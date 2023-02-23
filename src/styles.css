@@ -9,13 +9,26 @@ body {
     margin: 0;
     padding: 0;
 }
+h1 {
+    color: var(--text-color);
+}
+h2 {
+    color: var(--text-color);
+}
+h3 {
+    color: var(--text-color);
+}
+p {
+    color: var(--text-color);
+}
 
 :root {
-    --background-color: #264653;
-    --color-option-1: #2a9d8f;
+    --background-color: #FFFFFF;
+    --color-option-1: #F2F2F2;
     --color-option-2: #e9c46a;
     --color-option-3: #f4a261;
     --color-option-4: #e76f51;
-    --text-color: white;
+    --text-color: black;
     --button-background: var(--color-option-3);
+    --nav-bar: #F2F2F2;
 }
