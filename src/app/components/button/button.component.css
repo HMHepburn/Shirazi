@@ -5,3 +5,16 @@
     max-width:50%;
     height:max-content;
 }
+
+.solid {
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.solid:hover {
+    background-color: #CBCBCB;
+}
