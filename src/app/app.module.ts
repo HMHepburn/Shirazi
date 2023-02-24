@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { ButtonComponent } from './components/button/button.component';
+import { ColourPaletteComponent } from './components/colour-palette/colour-palette.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ButtonComponent } from './components/button/button.component';
     MainComponent,
     AccordionComponent,
     TypographyComponent,
-    ButtonComponent
+    ButtonComponent,
+    ColourPaletteComponent
   ],
   imports: [
     BrowserModule,

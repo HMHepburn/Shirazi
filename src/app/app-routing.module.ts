@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { ButtonComponent } from './components/button/button.component';
+import { ColourPaletteComponent } from './components/colour-palette/colour-palette.component';
 
 const routes: Routes = [
   { path: '',
@@ -23,7 +24,12 @@ const routes: Routes = [
       { 
         path: 'button', 
         component: ButtonComponent 
+      },
+      { 
+        path: 'colour', 
+        component: ColourPaletteComponent 
       }
+
     ]
   }
 
