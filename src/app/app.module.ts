@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './main/main.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { TypographyComponent } from './components/typography/typography.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TypographyComponent } from './components/typography/typography.componen
     SidenavComponent,
     MainComponent,
     AccordionComponent,
-    TypographyComponent
+    TypographyComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
