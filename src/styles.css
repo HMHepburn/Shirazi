@@ -16,6 +16,9 @@ h2 {
 h3 {
     color: var(--text-color);
 }
+h4 {
+    color: var(--text-color);
+}
 p {
     color: var(--text-color);
 }

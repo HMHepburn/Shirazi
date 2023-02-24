@@ -19,7 +19,6 @@ p {
     flex-direction: row;
     width:100%;
     height:10rem;
-    background-color:blue;
 }
 
 .colour-container {
@@ -40,10 +39,10 @@ p {
     display:flex;
     flex-direction:column;
     height:8rem;
-    width:4.5rem;
+    width:100%;
 }
 
 .shade {
     height:6rem;
-    width:4.5rem;
+    width:100%;
 }
