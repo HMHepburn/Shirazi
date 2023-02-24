@@ -1,5 +1,5 @@
 .navbar {
-    background-color: var(--nav-bar);
+    background: var(--nav-bar);;
     padding:1rem;
     width:98%;
     display: flex;
@@ -48,11 +48,11 @@
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #ff1276;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #ff1276;
   }
   
   input:checked + .slider:before {
@@ -72,8 +72,4 @@
 
   .title {
     margin:0;
-  }
-
-  h2 {
-    color: var(--text-color);
   }

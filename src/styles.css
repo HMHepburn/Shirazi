@@ -1,11 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
-
 html, body { height: 100%; }
 body { 
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif; 
     background-color: var(--background-color);
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -22,13 +20,22 @@ p {
     color: var(--text-color);
 }
 
+/* This is the original theme of the app */
 :root {
     --background-color: #FFFFFF;
     --color-option-1: #F2F2F2;
-    --color-option-2: #e9c46a;
+    --color-option-2: #CBCBCB;
     --color-option-3: #f4a261;
     --color-option-4: #e76f51;
     --text-color: black;
     --button-background: var(--color-option-3);
     --nav-bar: #F2F2F2;
+
+    /* 
+    Rename colours so that designers can reference this guide and 
+    reuse colour variables instead of putting in random hex codes 
+
+    Possible colours needed:
+    - 
+    */
 }

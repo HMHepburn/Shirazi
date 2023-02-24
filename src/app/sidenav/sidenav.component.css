@@ -1,7 +1,7 @@
 .navigation-container {
     display: flex;
     flex-direction: column;
-    background-color:#F2F2F2;
+    background-color: var(--color-option-1);
     width:20rem;
     overflow:scroll;
     height:100%;
@@ -11,26 +11,26 @@
     padding:1rem;
     font: 1rem;
     text-decoration:none;
-    color:black;
+    color:var(--text-color);
 }
 
 .list-element:hover {
-    background-color:#CBCBCB;
+    background-color: var(--color-option-2);
 }
 
 .special-topic {
     padding:1rem;
     font: 1rem;
     text-decoration:none;
-    color:black;
+    color:var(--text-color);
 }
 
 .special-topic:hover {
-    background-color:#CBCBCB;
+    background-color:var(--color-option-2);
 }
 
 hr {
-    border: 1px solid #929292;
+    border: 1px solid var(--color-option-2);
     display:block;
     width: 90%;
     height: 1px;
