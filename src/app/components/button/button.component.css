@@ -13,8 +13,15 @@
     color: white;
     padding: 1rem;
     width: 10rem;
+    font-size: medium;
 }
 
 .solid:hover {
     background-color: #CBCBCB;
 }
+
+.solid:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 0.2rem #6C6C6C;
+    transform: translateY(4px);
+  }
