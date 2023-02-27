@@ -32,6 +32,7 @@ import { RadioCheckboxToggleComponent } from './components/radio-checkbox-toggle
 import { RangeSliderComponent } from './components/range-slider/range-slider/range-slider.component';
 import { SearchBarComponent } from './components/search-bar/search-bar/search-bar.component';
 import { SpinnerComponent } from './components/spinner/spinner/spinner.component';
+import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { SpinnerComponent } from './components/spinner/spinner/spinner.component
     RadioCheckboxToggleComponent,
     RangeSliderComponent,
     SearchBarComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
