@@ -26,8 +26,8 @@ p {
 /* This is the original theme of the app */
 :root {
     --background-color: #FFFFFF;
-    --color-option-1: #FFDAE9;
-    --color-option-2: #F2A2B6;
+    --color-option-1: #F2F2F2;
+    --color-option-2: #DDDDDD;
     --color-option-3: #f4a261;
     --color-option-4: #e76f51;
     --text-color: black;

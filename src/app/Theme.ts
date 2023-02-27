@@ -6,8 +6,8 @@ export interface Theme {
      name: 'theme1',
      properties: {
       '--background-color': '#FFFFFF',
-      '--color-option-1': '#eeced6',
-      '--color-option-2': '#F2A2B6',
+      '--color-option-1': '#F2F2F2',
+      '--color-option-2': '#DDDDDD',
       '--color-option-3': '#f4a261',
       '--color-option-4': '#e76f51',
       '--text-color': 'black',
@@ -31,8 +31,8 @@ export interface Theme {
      name: 'theme3',
      properties: {
       '--background-color': '#181818',
-      '--color-option-1': '#660930',
-      '--color-option-2': '#FF1276',
+      '--color-option-1': '#343434',
+      '--color-option-2': '#818181',
       '--color-option-3': '#b7b7a4',
       '--color-option-4': '#a5a58d',
       '--text-color': 'white',
