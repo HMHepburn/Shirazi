@@ -1,7 +1,87 @@
 .button-container {
-    display:flex;
-    flex-direction:column;
-    margin-left:5rem;
-    max-width:50%;
-    height:max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    max-width: 50%;
+    height: max-content;
+}
+
+.solid {
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    width: 10rem;
+    font-size: medium;
+}
+
+.solid:hover {
+    background-color: #CBCBCB;
+}
+
+.solid:active {
+    box-shadow: 0 0.2rem #6C6C6C;
+    transform: translateY(4px);
+}
+
+.outline {
+    border-radius: 0.7rem;
+    border: 1px solid #6C6C6C;
+    background-color: #FFFFFF;
+    color: #6C6C6C;
+    padding: 1rem;
+    width: 10rem;
+    font-size: medium;
+}
+
+.outline:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.flat {
+    border-radius: 0.7rem;
+    border: none;
+    background-color: #FFFFFF;
+    color: #6C6C6C;
+    padding: 1rem;
+    width: 10rem;
+    font-size: medium;
+}
+
+.flat:hover {
+    color: #000000;
+}
+
+.grouped-buttons {
+    align-content: space-between;
+    background-color: #DDDDDD;
+    width: fit-content;
+    border-radius: 0.7rem;
+}
+
+.grouped {
+    border-radius: 0.7rem;
+    border: none;
+    color: #000000;
+    padding: 0.5rem;
+    width: 8rem;
+    font-size: medium;
+    margin: 0.8rem;
+    background-color: #DDDDDD;
+}
+
+.grouped:hover {
+    background-color: #CBCBCB;
+}
+
+.active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.grouped:active {
+    box-shadow: 0 0.2rem #6C6C6C;
+    transform: translateY(4px);
 }
