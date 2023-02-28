@@ -10,30 +10,31 @@
         Often buttons are applied to mobile interfaces when white space is in short supply.
     </p>
     <h3>Demo</h3>
-    <p>Solid Button</p>
+    <h4>Solid Button</h4>
     <button class="solid">
-        <strong>Button</strong>
+        <strong>Solid</strong>
     </button>
-    <p>Outline Button</p>
+    <br>
+    <h4>Outline Button</h4>
     <button class="outline">
-        <strong>Button</strong>
+        <strong>Outline</strong>
     </button>
-    <p>Flat Button</p>
+    <br>
+    <h4>Flat Button</h4>
     <button class="flat">
-        <strong>Button</strong>
+        <strong>Flat</strong>
     </button>
-    <p>Grouped Buttons</p>
+    <br>
+    <h4>Grouped Buttons</h4>
     <div class="grouped-buttons">
-        <button class="grouped active">
-            <strong>Button</strong>
+        <button [ngClass]="button1 == true ? 'active' : 'inactive'" (click)="setButtonOne()">
+            <strong>Button1</strong>
         </button>
-        <button class="grouped">
-            <strong>Button</strong>
+        <button [ngClass]="button2 == true ? 'active' : 'inactive'" (click)="setButtonTwo()">
+            <strong>Button2</strong>
         </button>
-        <button class="grouped">
-            <strong>Button</strong>
+        <button [ngClass]="button3 == true ? 'active' : 'inactive'" (click)="setButtonThree()">
+            <strong>Button3</strong>
         </button>
     </div>
-    <p>*A button would go here*</p>
-    <p>*A button would go here*</p>
 </div>

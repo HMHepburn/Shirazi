@@ -6,82 +6,103 @@
     height: max-content;
 }
 
+/* SOLID BUTTONS */
 .solid {
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     border: none;
-    background-color: #000000;
-    color: white;
+    background-color: var(--inverse-background);
+    color: var(--background-color);
     padding: 1rem;
-    width: 10rem;
+    padding-right:3rem;
+    padding-left:3rem;
+    width:fit-content;
     font-size: medium;
 }
 
 .solid:hover {
-    background-color: #CBCBCB;
+    background-color: var(--color-option-5);
+    cursor:pointer;
 }
 
 .solid:active {
-    box-shadow: 0 0.2rem #6C6C6C;
-    transform: translateY(4px);
+    transform: translateY(0.25rem);
 }
 
+/* OUTLINE BUTTONS */
 .outline {
-    border-radius: 0.7rem;
-    border: 1px solid #6C6C6C;
-    background-color: #FFFFFF;
-    color: #6C6C6C;
+    border-radius: 1rem;
+    border: 4px solid var(--inverse-background);
+    background-color: var(--background-color);
+    color: var(--inverse-background);
     padding: 1rem;
-    width: 10rem;
+    padding-right:3rem;
+    padding-left:3rem;
+    width:fit-content;
     font-size: medium;
 }
 
 .outline:hover {
-    border: 1px solid #000000;
-    color: #000000;
+    background-color: var(--color-option-1);
+    cursor:pointer;
 }
 
+.outline:active {
+    transform: translateY(0.25rem);
+}
+
+/* FLAT BUTTONS */
 .flat {
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     border: none;
-    background-color: #FFFFFF;
-    color: #6C6C6C;
-    padding: 1rem;
-    width: 10rem;
+    background-color: transparent;
+    color: var(--inverse-background);
+    padding-right:3rem;
+    padding-left:3rem;
+    width:fit-content;
     font-size: medium;
 }
 
 .flat:hover {
-    color: #000000;
+    color: var(--color-option-4);
+    cursor:pointer;
 }
 
+/* GROUPED BUTTONS */
 .grouped-buttons {
     align-content: space-between;
-    background-color: #DDDDDD;
+    background-color: var(--color-option-1);
     width: fit-content;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
 }
 
-.grouped {
-    border-radius: 0.7rem;
+.inactive {
+    border-radius: 1rem;
     border: none;
-    color: #000000;
-    padding: 0.5rem;
-    width: 8rem;
+    color: var(--inverse-background);
+    padding: 1rem;
+    padding-left:3rem;
+    padding-right:3rem;
     font-size: medium;
-    margin: 0.8rem;
-    background-color: #DDDDDD;
+    margin: 1rem;
+    background-color: transparent;
 }
 
-.grouped:hover {
-    background-color: #CBCBCB;
+.inactive:hover {
+    background-color: var(--color-option-2);
+}
+
+.inactive:active {
+    transform: translateY(0.25rem);
 }
 
 .active {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
-.grouped:active {
-    box-shadow: 0 0.2rem #6C6C6C;
-    transform: translateY(4px);
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--inverse-background);
+    padding: 1rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    font-size: medium;
+    margin: 1rem;
+    color: var(--background-color);
 }
