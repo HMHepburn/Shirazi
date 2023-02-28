@@ -1,14 +1,103 @@
 <div class="card-container">
     <h1>Card</h1>
     <p>
-        Something something something something something something something something
+        A card presents high-level information and can guide the user toward related actions and details.
+        <br>
+        Card content can contain text, links, images, data visualizations, lists and more.
     </p>
     <h3>Demo</h3>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
+    <div class="cards">
+        <div class="basic-card">
+            <h2>Basic Card</h2>
+            <p>A basic card can be used as a container for small snippets of data.</p>
+        </div>
+        <div class="clickable-card-1">
+            <h2>Clickable Card</h2>
+            <p>
+                This card is clickable. When the user hovers over it a drop-shadow is added. 
+            </p>
+        </div>
+        <div class="clickable-card-2">
+            <h2>Clickable Card</h2>
+            <p>
+                This card is also clickable. When the user hovers over the card is highlighted.
+            </p>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="image-card">
+            <div class="image-container">
+                <img src="https://cdn.radish.coop/media/thumbnails-120x120-cacao-70-illegal-chocolate-waffle-1670547010271.jpeg" class="picture">
+                <div class="text-container">
+                    <p>
+                        Here's a card that contains an image and some subtext!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-card-clickable-1">
+            <div class="image-container">
+                <img src="https://cdn.radish.coop/media/thumbnails-120x120-cacao-70-illegal-chocolate-waffle-1670547010271.jpeg" class="picture">
+                <div class="text-container">
+                    <p>
+                        This card is hoverable!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-card-clickable-2">
+            <div class="image-container">
+                <img src="https://cdn.radish.coop/media/thumbnails-120x120-cacao-70-illegal-chocolate-waffle-1670547010271.jpeg" class="picture">
+                <div class="text-container">
+                    <p>
+                        So is this one!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>Layout</h3>
+    <p>
+        Cards may be arranged only in grid form. Ideally they should each be the same size and shape.
+        <br>
+        Groups of cards should have be homogeneous regardless of content within the cards. 
+        <br>
+        Spacing between cards should also be homogeneous, and the card layout should ideally fill the viewport
+    </p>
+    <div class="layout-examples">
+        <div class="good-container">
+            <div class="good">
+                <div class="row">
+                    <div class="card-outline"></div>
+                    <div class="card-outline"></div>
+                    <div class="card-outline"></div>
+                </div>
+                <div class="row">
+                    <div class="card-outline"></div>
+                    <div class="card-outline"></div>
+                    <div class="card-outline"></div>
+                </div>
+            </div>
+            <p><b style="color:rgb(0, 170, 0)">DO:</b> Equal spacing and sizing between cards</p>
+        </div>
+        <div class="bad-container">
+            <div class="bad">
+                <div class="column">
+                    <div class="bad-card" style="width:3rem; height:5rem;"></div>
+                    <div class="bad-card" style="width:7rem; height:4rem; margin:2em;"></div>
+                    <div class="bad-card" style="width:6rem; height:6rem; margin:1em;"></div>
+                </div>
+                <div class="column">
+                    <div class="bad-card" style="width:4rem; height:10rem; margin:1em;"></div>
+                    <div class="bad-card" style="width:6rem; height:8rem; margin:1em;"></div>
+                </div>
+                <div class="column">
+                    <div class="bad-card" style="width:3rem; height:5rem;"></div>
+                </div>
+            </div>
+            <p><b style="color:rgb(211, 0, 0)">DON'T:</b> Unequal sizing and awkward spacing</p>
+        </div>
+    </div>
 </div>

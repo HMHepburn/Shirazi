@@ -2,6 +2,138 @@
     display:flex;
     flex-direction:column;
     margin-left:5rem;
-    max-width:50%;
+    min-width:50%;
     height:max-content;
+}
+
+.cards {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom:1rem;
+}
+
+.basic-card {
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+    padding:1rem;
+}
+
+.clickable-card-1 {
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+    padding:1rem;
+}
+
+.clickable-card-1:hover { 
+    transform: translateY(-0.25rem);
+    box-shadow: 0.25rem 0.25rem 0.25rem var(--color-option-2);
+    cursor:pointer;
+}
+
+.clickable-card-2 {
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+    padding:1rem;
+}
+
+.clickable-card-2:hover { 
+    background-color: var(--color-option-1);
+    cursor:pointer;
+}
+
+.image-card {
+    display:flex;
+    flex-direction:column;
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+}
+
+.image-card-clickable-1 {
+    display:flex;
+    flex-direction:column;
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+}
+
+.image-card-clickable-1:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0.25rem 0.25rem 0.25rem var(--color-option-2);
+    cursor:pointer;
+}
+
+.image-card-clickable-2 {
+    display:flex;
+    flex-direction:column;
+    width:12rem;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--color-option-3);
+}
+
+.image-card-clickable-2:hover {
+    background-color: var(--color-option-1);
+    cursor:pointer;
+}
+
+.image-container {
+    width:100%;
+}
+
+.picture {
+    width:100%;
+    border-radius:0.9rem;
+}
+
+.text-container {
+    padding:1rem;
+}
+
+.layout-examples {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.good {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(0, 170, 0);
+}
+
+.bad {
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(211, 0, 0);
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.card-outline {
+    width:6rem;
+    height:8rem;
+    margin:1em;
+    border-radius:1rem;
+    background-color: var(--color-option-1);
+}
+
+.bad-card {
+    background-color: var(--color-option-1);
+    border-radius:1rem;
 }
