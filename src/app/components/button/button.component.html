@@ -1,30 +1,35 @@
 <div class="button-container">
     <h1>Button</h1>
     <p>
-        buttons are useful for delivering large amounts of content in small spaces.
-        They include header titles that indicate what content is contained within.
-    </p>
-    <p>
-        buttons hide information from users and should thus not be used for displaying essential information.
-        The best place to use an button is when a page needs to be shortened to reduce scrolling.
-        Often buttons are applied to mobile interfaces when white space is in short supply.
+        Buttons are used in every application as a submission tool for users.
     </p>
     <h3>Demo</h3>
-    <h4>Solid Button</h4>
     <button class="solid">
-        <strong>Solid</strong>
+        <strong>Solid Button</strong>
     </button>
+    <p>
+        Solid buttons look heavy and are used for primary actions.
+        <br>
+        They direct the user's attention to the suggested action.
+    </p>
     <br>
-    <h4>Outline Button</h4>
     <button class="outline">
-        <strong>Outline</strong>
+        <strong>Outline Button</strong>
     </button>
+    <p>
+        Outline buttons are used for secondary actions.
+        <br>
+        They reduce visual noise on the page.
+    </p>
     <br>
-    <h4>Flat Button</h4>
     <button class="flat">
-        <strong>Flat</strong>
+        <strong>Flat Button</strong>
     </button>
-    <br>
+    <p>
+        Flat buttons are used for tertiary actions.
+        <br>
+        They can be used inline, in navigation features, and more.
+    </p>
     <h4>Grouped Buttons</h4>
     <div class="grouped-buttons">
         <button [ngClass]="button1 == true ? 'active' : 'inactive'" (click)="setButtonOne()">
@@ -37,4 +42,9 @@
             <strong>Button3</strong>
         </button>
     </div>
+    <p>
+        Grouped buttons are appropriate for filters, or when there are several related decisions that the user can apply. 
+        <br>
+        Active filters are solid buttons with emboldened text, while inactive filters are effectively flat buttons. 
+    </p>
 </div>
