@@ -31,7 +31,7 @@
 /* OUTLINE BUTTONS */
 .outline {
     border-radius: 1rem;
-    border: 4px solid var(--inverse-background);
+    border: 0.25rem solid var(--inverse-background);
     background-color: var(--background-color);
     color: var(--inverse-background);
     padding: 1rem;
