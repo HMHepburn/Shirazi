@@ -1,14 +1,67 @@
 <div class="alert-container">
     <h1>Alert</h1>
     <p>
-        Something something something something something something something something
+        Alerts provide feedback for user actions. They often communicate a message with a level of severity attached to it.
+        <br>
+        They grab the user's attention to provide important information.
     </p>
-    <h3>Demo</h3>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
-    <p>*A demo would go here*</p>
+    <h3>Standard Alerts</h3>
+    <p>
+        Standard alerts are used within the context of the application.
+        <br>
+        <br>
+        They can be found within the content area or within a component.
+        <br>
+        <br>
+        Alerts don't typically follow the colour palette of the application - and are meant to attract the user's eye by looking out of place.
+    </p>
+    <div class="standards-demo">
+        <div class="standard-content-container">
+            <div class="error">
+                ERROR
+            </div>
+            <p>Reserved for errors, malfunctions, or critical issues.</p>
+            <div class="warning">
+                WARNING
+            </div>
+            <p>Used when an action requires attention but might not cause errors.</p>
+            <div class="success">
+                SUCCESS
+            </div>
+            <p>Used to provide a static success message</p>
+            <div class="info">
+                INFO
+            </div>
+            <p>Provides info to users. Should not be overused to replace regular content</p>
+            <br>
+        </div>
+    </div>
+    <p>
+        Alert bodies can include tooltips, headers, bodies, or more
+        <br>
+        Alerts may even be formatted similarly to cards - however they should most often be small and not take over other components.
+    </p>
+
+    <h3>App-Level Alerts</h3>
+    <p>
+        App-level alerts are used in the global context of the application.
+        <br>
+        They are placed at the very top of all content and navigation.
+    </p>
+    <div class="standards-demo">
+        <div class="standard-content-container">
+            <div class="system-danger">
+                DANGER
+            </div>
+            <app-navbar></app-navbar>
+            <div class="system-warning">
+                WARNING
+            </div>
+            <div class="system-info">
+                INFO
+            </div>
+        </div>
+    </div>
     <p>*A demo would go here*</p>
     <p>*A demo would go here*</p>
 </div>

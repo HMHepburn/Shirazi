@@ -2,6 +2,108 @@
     display:flex;
     flex-direction:column;
     margin-left:5rem;
-    max-width:50%;
+    min-width:50%;
+    max-width:60%;
     height:max-content;
+}
+
+.standards-demo {
+    border: 0.1rem solid var(--color-option-2);
+    width:100%;
+    height:fit-content;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+.standard-content-container {
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    align-self:center;
+    background-color:grey;
+}
+
+.error {
+    width:100%;
+    background-color:#ff00001f;
+    margin-top:2rem;
+    align-self:center;
+    border: 0.25rem solid #ff00004d;
+    color: #ff0000;
+    border-radius:1rem;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+}
+
+.warning {
+    width:100%;
+    background-color:#ffbb0023;
+    margin-top:2rem;
+    align-self:center;
+    border: 0.25rem solid #ffbb0048;
+    color: #ffbb00;
+    border-radius:1rem;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+}
+
+.success {
+    width:100%;
+    background-color:#00800030;
+    margin-top:2rem;
+    align-self:center;
+    border: 0.25rem solid #00800046;
+    color: #008000;
+    border-radius:1rem;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+}
+
+.info {
+    width:100%;
+    background-color:#0000ff29;
+    margin-top:2rem;
+    align-self:center;
+    border: 0.25rem solid #0000ff47;
+    color: #0000ff;
+    border-radius:1rem;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+}
+
+.system-danger {
+    width:100%;
+    margin-top:2rem;
+    align-self:center;
+    background-color: #ff0000;
+    display:flex;
+    text-align:center;
+    color:white;
+}
+
+.system-warning {
+    width:100%;
+    margin-top:2rem;
+    align-self:center;
+    background-color: #ffb700;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+    color:white;
+}
+
+.system-info {
+    margin-top:2rem;
+    align-self:center;
+    background-color: #009dff;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+    color:white;
 }
