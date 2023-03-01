@@ -10,10 +10,41 @@
         Often accordions are applied to mobile interfaces when white space is in short supply.
     </p>
     <h3>Demo</h3>
-    <p>*An accordion would go here*</p>
-    <p>*An accordion would go here*</p>
-    <p>*An accordion would go here*</p>
-    <p>*An accordion would go here*</p>
-    <p>*An accordion would go here*</p>
-    <p>*An accordion would go here*</p>
+    <p>
+        Here is an example of an accordion with dynamically generated elements (using ngFor)
+        <br>
+        <br>
+        Some accordion elements include images - ngIf is used to include these if they exist amongst the data provided.
+    </p>
+    <cdk-accordion class="example-accordion">
+        <cdk-accordion-item
+          *ngFor="let item of items; let index = index;"
+          #accordionItem="cdkAccordionItem"
+          class="example-accordion-item"
+          role="button"
+          tabindex="0"
+          [attr.id]="'accordion-header-' + index"
+          [attr.aria-expanded]="accordionItem.expanded"
+          [attr.aria-controls]="'accordion-body-' + index">
+          <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
+            {{ item.name }}
+            <span class="example-accordion-item-description">
+                <div class="arrow-up" *ngIf="accordionItem.expanded"></div>
+                <div class="arrow-down" *ngIf="!accordionItem.expanded"></div>
+            </span>
+          </div>
+          <div
+            class="example-accordion-item-body"
+            role="region"
+            [style.display]="accordionItem.expanded ? '' : 'none'"
+            [attr.id]="'accordion-body-' + index"
+            [attr.aria-labelledby]="'accordion-header-' + index">
+            {{ item.text }}
+            <div *ngIf="item.image != null">
+                <br>
+                <img src="{{ item.image }}" class="item-image">
+            </div>
+          </div>
+        </cdk-accordion-item>
+    </cdk-accordion>
 </div>
