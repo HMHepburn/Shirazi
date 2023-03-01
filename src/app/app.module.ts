@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -70,7 +71,8 @@ import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component
   imports: [
     BrowserModule,
     NoopAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CdkAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
