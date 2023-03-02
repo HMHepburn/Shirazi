@@ -34,6 +34,7 @@ import { RangeSliderComponent } from './components/range-slider/range-slider/ran
 import { SearchBarComponent } from './components/search-bar/search-bar/search-bar.component';
 import { SpinnerComponent } from './components/spinner/spinner/spinner.component';
 import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component';
+import { SpacingComponent } from './components/spacing/spacing.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component
     RangeSliderComponent,
     SearchBarComponent,
     SpinnerComponent,
-    TooltipComponent
+    TooltipComponent,
+    SpacingComponent
   ],
   imports: [
     BrowserModule,
