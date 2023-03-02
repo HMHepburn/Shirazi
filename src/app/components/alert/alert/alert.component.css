@@ -22,7 +22,6 @@
     width:80%;
     height:80%;
     align-self:center;
-    background-color:grey;
 }
 
 .error {
@@ -83,6 +82,7 @@
     align-self:center;
     background-color: #ff0000;
     display:flex;
+    padding:1rem;
     text-align:center;
     color:white;
 }
@@ -99,11 +99,24 @@
 }
 
 .system-info {
+    width:100%;
     margin-top:2rem;
     align-self:center;
     background-color: #009dff;
     display:flex;
     align-items: center;
     padding:1rem;
+    color:white;
+}
+
+.nav-dummy {
+    width:100%;
+    align-self:center;
+    background-color: #a4a4a4;
+    display:flex;
+    align-items: center;
+    padding:1rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
     color:white;
 }
