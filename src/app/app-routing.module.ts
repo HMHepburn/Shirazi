@@ -31,6 +31,8 @@ import { SpinnerComponent } from './components/spinner/spinner/spinner.component
 import { DatePickerComponent } from './components/date-picker/date-picker/date-picker.component';
 import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component';
 import { SpacingComponent } from './components/spacing/spacing.component';
+import { ImagesComponent } from './components/images/images.component';
+import { VoiceComponent } from './components/voice/voice.component';
 
 const routes: Routes = [
   { path: '',
@@ -93,6 +95,10 @@ const routes: Routes = [
         component: FormComponent 
       },
       { 
+        path: 'images', 
+        component: ImagesComponent 
+      },
+      { 
         path: 'inputs', 
         component: InputsComponent 
       },
@@ -143,6 +149,10 @@ const routes: Routes = [
       { 
         path: 'tooltip', 
         component: TooltipComponent 
+      },
+      { 
+        path: 'voice', 
+        component: VoiceComponent 
       },
     ]
   }

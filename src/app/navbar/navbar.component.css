@@ -7,6 +7,19 @@
     justify-content:space-between;
 }
 
+.title-logo {
+  display: flex;
+  flex-direction:row;
+}
+
+.logo {
+  width:2rem;
+  margin-right:1rem;
+  background-color:var(--background-color);
+  padding-right:0.25rem;
+  border-radius:0.5rem;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;

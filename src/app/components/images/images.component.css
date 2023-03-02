@@ -1,0 +1,7 @@
+.images-container {
+    display:flex;
+    flex-direction:column;
+    margin-left:5rem;
+    max-width:50%;
+    height:max-content;
+}

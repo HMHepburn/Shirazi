@@ -35,6 +35,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar/search-ba
 import { SpinnerComponent } from './components/spinner/spinner/spinner.component';
 import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component';
 import { SpacingComponent } from './components/spacing/spacing.component';
+import { ImagesComponent } from './components/images/images.component';
+import { VoiceComponent } from './components/voice/voice.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { SpacingComponent } from './components/spacing/spacing.component';
     SearchBarComponent,
     SpinnerComponent,
     TooltipComponent,
-    SpacingComponent
+    SpacingComponent,
+    ImagesComponent,
+    VoiceComponent
   ],
   imports: [
     BrowserModule,

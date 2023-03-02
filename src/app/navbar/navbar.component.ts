@@ -9,7 +9,7 @@ import { ThemeService } from '../theme.service';
 export class NavbarComponent {
 
   constructor(private themeService: ThemeService) {}
-  
+
   ChangeTheme(): any {
     this.themeService.changeActiveTheme();
   }
