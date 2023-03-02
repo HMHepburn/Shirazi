@@ -1,0 +1,86 @@
+.spacing-container {
+    display:flex;
+    flex-direction:column;
+    margin-left:5rem;
+    max-width:50%;
+    height:max-content;
+}
+
+.block-container {
+    display: flex;
+    flex-direction:row;
+}
+
+.pt4 {
+    width:8rem;
+    height:0.25rem;
+    background-color:#FF4155;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt8 {
+    width:8rem;
+    height:0.5rem;
+    background-color:#FF5668;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt12 {
+    width:8rem;
+    height:0.75rem;
+    background-color:#FF6B7B;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt16 {
+    width:8rem;
+    height:1rem;
+    background-color:#FF808E;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt24 {
+    width:8rem;
+    height:1.5rem;
+    background-color:#FF95A0;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt32 {
+    width:8rem;
+    height:2rem;
+    background-color:#FFAAB3;
+    align-self: center;
+    margin-right:1rem;
+}
+
+.pt64 {
+    width:8rem;
+    height:4rem;
+    background-color:#FFBFC5;
+    align-self: center;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
+}
+
+.pt72 {
+    width:8rem;
+    height:4.5rem;
+    background-color:#FFD4D8;
+    align-self: center;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
+}
+
+.pt128 {
+    width:8rem;
+    height:8rem;
+    background-color:#FFE8EA;
+    align-self: center;
+    margin-right:1rem;
+}

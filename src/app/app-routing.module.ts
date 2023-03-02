@@ -30,6 +30,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar/search-ba
 import { SpinnerComponent } from './components/spinner/spinner/spinner.component';
 import { DatePickerComponent } from './components/date-picker/date-picker/date-picker.component';
 import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component';
+import { SpacingComponent } from './components/spacing/spacing.component';
 
 const routes: Routes = [
   { path: '',
@@ -130,6 +131,10 @@ const routes: Routes = [
       { 
         path: 'search-bar', 
         component: SearchBarComponent 
+      },
+      { 
+        path: 'spacing', 
+        component: SpacingComponent 
       },
       { 
         path: 'spinner', 
