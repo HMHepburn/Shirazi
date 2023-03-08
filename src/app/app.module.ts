@@ -37,6 +37,7 @@ import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component
 import { SpacingComponent } from './components/spacing/spacing.component';
 import { ImagesComponent } from './components/images/images.component';
 import { VoiceComponent } from './components/voice/voice.component';
+import { HomepageComponent } from './homepage/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { VoiceComponent } from './components/voice/voice.component';
     TooltipComponent,
     SpacingComponent,
     ImagesComponent,
-    VoiceComponent
+    VoiceComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

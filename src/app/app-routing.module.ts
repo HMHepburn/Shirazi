@@ -33,8 +33,13 @@ import { TooltipComponent } from './components/tooltip/tooltip/tooltip.component
 import { SpacingComponent } from './components/spacing/spacing.component';
 import { ImagesComponent } from './components/images/images.component';
 import { VoiceComponent } from './components/voice/voice.component';
+import { HomepageComponent } from './homepage/homepage/homepage.component';
 
 const routes: Routes = [
+  {
+    path: 'home',
+    component: HomepageComponent
+  },
   { path: '',
     component: MainComponent,
     children: [
@@ -156,7 +161,6 @@ const routes: Routes = [
       },
     ]
   }
-
   
 ];
 
