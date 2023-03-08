@@ -37,13 +37,15 @@ body {
 	text-align: center;
 	font-size:3rem;
 	font-weight:200;
+	font-family: mr-eaves-xl-modern, sans-serif;
 }
 
 .title {
 	color: white;
 	text-align: center;
 	font-size:5rem;
-	font-weight:500;
+	font-weight:700;
+	font-family: mr-eaves-xl-modern, sans-serif;
 }
 
 .summary {
@@ -51,6 +53,7 @@ body {
 	text-align: center;
 	font-size:3rem;
 	font-weight:200;
+	font-family: mr-eaves-xl-modern, sans-serif;
 }
 
 .solid {
