@@ -9,18 +9,23 @@ body {
 }
 h1 {
     color: var(--text-color);
+    font-family: mr-eaves-xl-modern, sans-serif;
 }
 h2 {
     color: var(--text-color);
+    font-family: mr-eaves-xl-modern, sans-serif;
 }
 h3 {
     color: var(--text-color);
+    font-family: mr-eaves-xl-modern, sans-serif;
 }
 h4 {
     color: var(--text-color);
+    font-family: mr-eaves-xl-modern, sans-serif;
 }
 p {
     color: var(--text-color);
+    font-family: mr-eaves-xl-modern, sans-serif;
 }
 
 /* This is the original theme of the app */
