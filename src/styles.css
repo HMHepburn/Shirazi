@@ -18,6 +18,7 @@ h2 {
 h3 {
     color: var(--text-color);
     font-family: mr-eaves-xl-modern, sans-serif;
+    font-size:1.7rem;
 }
 h4 {
     color: var(--text-color);
@@ -26,6 +27,7 @@ h4 {
 p {
     color: var(--text-color);
     font-family: mr-eaves-xl-modern, sans-serif;
+    font-size:1.5rem;
 }
 
 /* This is the original theme of the app */
