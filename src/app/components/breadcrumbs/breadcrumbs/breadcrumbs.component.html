@@ -3,22 +3,83 @@
     <p>
         Breadcrumbs are used to show a linked tree system to users.
     </p>
+
     <h3>Demo</h3>
     <div class="card">
         <div class="breadcrumbs">
-            <div class="crumb">one</div>
-            >
-            <div class="crumb">two</div>
-            >
-            <div class="crumb">three</div>
+            <div class="crumb"><p>one</p></div>
+            <p>></p>
+            <div class="crumb"><p>two</p></div>
+            <p>></p>
+            <div class="crumb"><p>three</p></div>
         </div>
     </div>
-
     <p>
         The above component indicates that one is a set containing two, and two is a set that contains three
     </p>
-
     <img class="set-theory" src="../../../../assets/set-visual.jpg">
+
+    <h3>Typograhy</h3>
+    <p>
+        Sans-serif font should be used. Breadcrumb buttons should look like links.
+        <br>
+        <br>
+        The font size should be standard paragraph size.
+    </p>
+
+    <h3>Size</h3>
+    <p>
+        The breadcrumb container should conform to the size of the elements within.
+        <br>
+        <br>
+        The container should not have excess padding - as to avoid obstructing the breadcrumbs subject.
+    </p>
+
+    <h3>Placement</h3>
+    <p>
+        The container has <mark style="background-color:var(--accent2)">margins</mark> of 1rem on each side. 
+        <br>
+        <br>
+        The padding and margins on each <mark style="background-color:var(--accent3)">crumb</mark> is regular paragraph padding. 
+    </p>
+    <div class="card">
+        <div class="breadcrumbs-spacing">
+            <div class="breadcrumbs">
+                <div class="crumb" style="background-color:var(--accent3)"><p>one</p></div>
+                <p>></p>
+                <div class="crumb" style="background-color:var(--accent3)"><p>two</p></div>
+                <p>></p>
+                <div class="crumb" style="background-color:var(--accent3)"><p>three</p></div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Examples</h3>
+    <p>
+        Breadcrumbs should appear in the top left of the subject - they are marked with high importance.
+        <br>
+        <br>
+        If not within an image - they should be above the subject.
+    </p>
+    <div class="image-container">
+        <div class="breadcrumbs">
+            <div class="crumb"><p>Market</p></div>
+            <p>></p>
+            <div class="crumb"><p>Specialty Foods</p></div>
+            <p>></p>
+            <div class="crumb"><p>Malted Flower (zero waste)</p></div>
+        </div>
+    </div>
+    <p>Breadcrumbs with overflow should have a reduced character limit</p>
+    <div class="image-container-overflow">
+        <div class="breadcrumbs">
+            <div class="crumb"><p>Market</p></div>
+            <p>></p>
+            <div class="crumb"><p>Chocolates</p></div>
+            <p>></p>
+            <div class="crumb"><p>Crunchy Hazelnut and Madagascar Chocolate ...</p></div>
+        </div>
+    </div>
 
 
 </div>
