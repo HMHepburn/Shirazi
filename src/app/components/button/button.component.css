@@ -1,9 +1,16 @@
 .button-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5rem;
-    min-width:50%;
-    height: max-content;
+    display:flex;
+    flex-direction:column;
+    margin-left:5rem;
+    width:50%;
+    height:max-content;
+    position:absolute;
+}
+
+.buttons {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
 
 /* SOLID BUTTONS */
@@ -103,4 +110,18 @@
     font-size: medium;
     margin: 1rem;
     color: var(--background-color);
+}
+
+.example {
+    display:flex;
+    flex-direction:row;
+    max-width:100%;
+    position:relative
+}
+
+.example-image {
+    border-radius:1rem;
+    border: 0.1rem solid #181818;
+    width:50%;
+    margin-right:1rem;
 }
