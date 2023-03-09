@@ -19,6 +19,7 @@
     margin:1rem;
     padding:1rem;
     border-radius:1rem;
+    width:fit-content;
     background-color: var(--background-color);
 }
 
@@ -34,4 +35,10 @@
 
 .set-theory {
     width:50%;
+}
+
+.image-container {
+    background-image: url("../../../../assets/breadcrumbs-sample.jpeg");
+    background-size:cover;
+    height:30rem;
 }
