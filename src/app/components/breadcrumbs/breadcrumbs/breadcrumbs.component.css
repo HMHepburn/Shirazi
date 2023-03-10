@@ -5,6 +5,7 @@
     width:50%;
     height:max-content;
     position:absolute;
+    padding-bottom:5rem;
 }
 
 .card {
@@ -54,4 +55,49 @@
     background-image: url("../../../../assets/breadcrumbs-sample2.jpeg");
     background-size:cover;
     height:40rem;
+}
+
+.layout-examples {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.good {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(0, 170, 0);
+}
+
+.bad {
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(211, 0, 0);
+}
+
+.crumbs-good {
+    display:flex;
+    flex-direction:row;
+    margin:1rem;
+    border-radius:2rem;
+    width:fit-content;
+    background-color: var(--color-option-1);
+}
+
+.crumbs-bad {
+    display:flex;
+    flex-direction:row;
+    margin:1rem;
+    border-radius:2rem;
+    width:100%;
+    height:fit-content;
+    background-color: var(--color-option-1);
 }
