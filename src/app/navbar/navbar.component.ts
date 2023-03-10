@@ -11,6 +11,7 @@ export class NavbarComponent {
   constructor(private themeService: ThemeService) {}
 
   ChangeTheme(): any {
-    this.themeService.changeActiveTheme();
+    console.log("changing theme!");
+    this.themeService.changeTheme();
   }
 }
