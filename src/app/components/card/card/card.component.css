@@ -2,8 +2,10 @@
     display:flex;
     flex-direction:column;
     margin-left:5rem;
-    min-width:50%;
+    width:50%;
     height:max-content;
+    position:absolute;
+    padding-bottom:5rem;
 }
 
 .cards {
@@ -48,7 +50,7 @@
 .image-card {
     display:flex;
     flex-direction:column;
-    width:12rem;
+    width:14rem;
     border-radius: 1rem;
     border: 0.1rem solid var(--color-option-3);
 }
@@ -56,7 +58,7 @@
 .image-card-clickable-1 {
     display:flex;
     flex-direction:column;
-    width:12rem;
+    width:14rem;
     border-radius: 1rem;
     border: 0.1rem solid var(--color-option-3);
 }
@@ -70,7 +72,7 @@
 .image-card-clickable-2 {
     display:flex;
     flex-direction:column;
-    width:12rem;
+    width:14rem;
     border-radius: 1rem;
     border: 0.1rem solid var(--color-option-3);
 }

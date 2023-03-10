@@ -30,6 +30,7 @@ p {
     color: var(--text-color);
     font-family: mr-eaves-xl-modern, sans-serif;
     font-size:1.5rem;
+    margin:0.5rem;
 }
 
 /* This is the original theme of the app */
