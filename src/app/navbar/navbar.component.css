@@ -1,7 +1,6 @@
 .navbar {
     background: var(--nav-bar);
     padding:1rem;
-    width:98.5%;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
