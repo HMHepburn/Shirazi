@@ -20,13 +20,14 @@
 .standard-content-container {
     display:flex;
     flex-direction:column;
-    width:80%;
-    height:80%;
+    width:90%;
+    height:90%;
     align-self:center;
+    padding-bottom:2rem;
 }
 
 .error {
-    width:100%;
+    width:80%;
     background-color:#FF41551f;
     margin-top:2rem;
     align-self:center;
@@ -39,7 +40,7 @@
 }
 
 .warning {
-    width:100%;
+    width:80%;
     background-color:#F3A8001f;
     margin-top:2rem;
     align-self:center;
@@ -52,7 +53,7 @@
 }
 
 .success {
-    width:100%;
+    width:80%;
     background-color:#1BC6AC1f;
     margin-top:2rem;
     align-self:center;
@@ -65,7 +66,7 @@
 }
 
 .info {
-    width:100%;
+    width:80%;
     background-color:#5471B61f;
     margin-top:2rem;
     align-self:center;
@@ -78,46 +79,112 @@
 }
 
 .system-danger {
-    width:100%;
     margin-top:2rem;
-    align-self:center;
     background-color: #FF4155;
     display:flex;
-    padding:1rem;
     text-align:center;
     color:white;
 }
 
 .system-warning {
-    width:100%;
     margin-top:2rem;
-    align-self:center;
     background-color: #F3A800;
     display:flex;
     align-items: center;
-    padding:1rem;
-    color:white;
 }
 
 .system-info {
-    width:100%;
     margin-top:2rem;
-    align-self:center;
     background-color: #5471B6;
     display:flex;
     align-items: center;
-    padding:1rem;
-    color:white;
 }
 
-.nav-dummy {
-    width:100%;
-    align-self:center;
-    background-color: #a4a4a4;
-    display:flex;
-    align-items: center;
-    padding:1rem;
-    padding-top:2rem;
-    padding-bottom:2rem;
-    color:white;
+.alert-message {
+    margin: 1rem;
+    color: white;
 }
+
+.layout-examples {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.good {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(0, 170, 0);
+}
+
+.bad {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:23rem;
+    height:23rem;
+    border: 0.1rem solid var(--color-option-1);
+    border-bottom: 0.25rem solid rgb(211, 0, 0);
+}
+
+.solid {
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--inverse-background);
+    color: var(--background-color);
+    padding: 1rem;
+    padding-right:3rem;
+    padding-left:3rem;
+    width:fit-content;
+    font-size: medium;
+}
+
+.solid:hover {
+    background-color: var(--color-option-5);
+    cursor:pointer;
+}
+
+.solid:active {
+    transform: translateY(0.25rem);
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .alert-modal-example {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

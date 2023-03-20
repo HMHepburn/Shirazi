@@ -51,24 +51,58 @@
     <div class="standards-demo">
         <div class="standard-content-container">
             <div class="system-danger">
-                DANGER
+                <div class="alert-message">DANGER</div>
             </div>
-            <div class="nav-dummy">
-                navbar
-            </div>
+            <app-navbar></app-navbar>
             <div class="system-warning">
-                WARNING
+                <div class="alert-message">WARNING</div>
             </div>
-            <div class="nav-dummy">
-                navbar
-            </div>
-
+            <app-navbar></app-navbar>
             <div class="system-info">
-                INFO
+                <div class="alert-message">INFO</div>
             </div>
-            <div class="nav-dummy">
-                navbar
-            </div>
+            <app-navbar></app-navbar>
         </div>
     </div>
+
+    <h3>Typography</h3>
+    <p>
+        Alerts text should be minimal. Ideally, the standalone alerts should be no more than a few words. App-level alerts may be a sentence.
+    </p>
+    <div class="layout-examples">
+        <div class="good-container">
+            <div class="good">
+                <div class="error">
+                    ERROR - Input invalid (missing name)
+                </div>
+            </div>
+            <p><b style="color:rgb(0, 170, 0)">DO:</b> Short messages in alerts</p>
+        </div>
+        <div class="bad-container">
+            <div class="bad">
+                <div class="warning">
+                    WARNING - You are submitting an object without an image, it will be difficult for users to identify your product!
+                    Please include an image in your submission, preferably one that is high resolution.
+                </div>
+            </div>
+            <p><b style="color:rgb(211, 0, 0)">DON'T:</b> Long message, difficult for users to read, blocks other content</p>
+        </div>
+    </div>
+
+    <h3>Size</h3>
+    <p>
+        Alerts should draw the user's eye without blocking the remainder of the page. This means that alerts should be small and concise (see typography)
+    </p>
+
+    <h3>Placement</h3>
+    <p>
+        Standalone alerts may be included in small popup modals, or integrated within the page.
+        <br>
+        <br>
+        While app-level alerts are found at the top of the viewport (often above/below the navbar), but may also be included within modals.
+    </p>
+
+    <button class="solid" (click)="openModal()">
+        <strong>Click for alert!</strong>
+    </button>
 </div>

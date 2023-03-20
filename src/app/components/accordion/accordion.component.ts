@@ -1,10 +1,28 @@
 import { Component } from '@angular/core';
 import { CdkAccordionModule } from '@angular/cdk/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
 	selector: 'app-accordion',
 	templateUrl: './accordion.component.html',
-	styleUrls: ['./accordion.component.css']
+	styleUrls: ['./accordion.component.css'],
+	animations: [
+		trigger('openClose', [
+			state('open', style({
+				backgroundColor: 'yellow'
+			})),
+			state('closed', style({
+				backgroundColor: 'blue'
+			})),
+			transition('open => closed', [
+				animate('1s')
+			]),
+			transition('closed => open', [
+				animate('1s')
+			])
+		])
+	]
 })
 export class AccordionComponent {
 	items = [

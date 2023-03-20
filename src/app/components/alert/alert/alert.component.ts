@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-alert',
-  templateUrl: './alert.component.html',
-  styleUrls: ['./alert.component.css']
+	selector: 'app-alert',
+	templateUrl: './alert.component.html',
+	styleUrls: ['./alert.component.css']
 })
 export class AlertComponent {
-
+	openModal() {
+		// alert should activate here
+	}
 }
+
