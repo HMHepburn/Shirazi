@@ -1,32 +1,40 @@
 .navigation-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-option-1);
-    width:20rem;
+    background-color: var(--background-color);
+    width:100%;
     overflow:scroll;
-    height:93%;
+    /* I am so sorry that the height calculation is like this - I don't feel like restructuring a bunch of things <3 */
+    height:86%; 
+    margin:1rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem var(--color-option-2);
 }
 
 .list-element {
     padding:1rem;
-    font: 1rem;
+    margin:0.5rem;
+    font: 1.5rem;
     text-decoration:none;
     color:var(--text-color);
+    border-radius:0.5rem;
 }
 
 .list-element:hover {
-    background-color: var(--color-option-2);
+    background-color: var(--color-option-1);
 }
 
 .special-topic {
     padding:1rem;
-    font: 1rem;
+    margin:0.5rem;
+    font: 1.5rem;
     text-decoration:none;
     color:var(--text-color);
+    border-radius:0.5rem;
 }
 
 .special-topic:hover {
-    background-color:var(--color-option-2);
+    background-color:var(--color-option-1);
 }
 
 hr {
