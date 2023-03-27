@@ -19,3 +19,8 @@
     max-width:30%;
     border-radius:1rem;
 }
+
+.placement-column {
+    display:flex;
+    flex-direction:column;
+}
