@@ -2,6 +2,32 @@
     display:flex;
     flex-direction:column;
     margin-left:5rem;
-    max-width:50%;
+    width:50%;
     height:max-content;
+    position:absolute;
+    padding-bottom:5rem;
+}
+
+.search-bar-main {
+    padding: 1rem;
+    border-radius:1rem;
+    width:50%;
+    border: 0.2rem solid var(--color-option-2);
+    font-size: 1rem;
+}
+
+.search-bar-main::placeholder {
+    color: var(--color-option-2);
+}
+
+.search-bar-embed {
+    padding: 1rem;
+    border-radius:0.25rem;
+    width:50%;
+    border: 0.1rem solid var(--color-option-3);
+    font-size: 1rem;
+}
+
+.search-bar-embed::placeholder {
+    color: var(--color-option-4);
 }

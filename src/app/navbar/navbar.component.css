@@ -1,9 +1,11 @@
 .navbar {
     background: var(--nav-bar);
     padding:1rem;
+    margin:1rem;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
+    border-radius:1rem;
 }
 
 .title-logo {

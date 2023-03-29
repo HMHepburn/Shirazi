@@ -5,7 +5,7 @@
     width:100%;
     overflow:scroll;
     /* I am so sorry that the height calculation is like this - I don't feel like restructuring a bunch of things <3 */
-    height:86%; 
+    height:82%; 
     margin:1rem;
     border-radius: 1rem;
     box-shadow: 0.5rem 0.5rem 1rem var(--color-option-2);
