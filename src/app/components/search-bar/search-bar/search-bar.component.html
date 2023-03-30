@@ -12,8 +12,33 @@
     <input type="text" placeholder="Search for products" class="search-bar-embed">
 
     <h3>Typography</h3>
-    <p>*A demo would go here*</p>
+    <p>
+        The placeholder and filler text should have the same font - however the placeholder text should be a much fainter colour to indicate it is temporary.
+    </p>
+    <div class="layout-examples">
+        <div class="good-container">
+            <div class="good">
+                <input type="text" placeholder="Search for products" class="search-bar-main">
+            </div>
+            <p><b style="color:rgb(0, 170, 0)">DO:</b> Placeholder is light and indicates that the input can be entered.</p>
+        </div>
+        <div class="bad-container">
+            <div class="bad">
+                <input type="text" placeholder="Search for products" class="search-bar-bad">
+            </div>
+            <p><b style="color:rgb(211, 0, 0)">DON'T:</b> Placeholder is the same colour as text - it is unclear to the user whether the field is already filled.</p>
+        </div>
+    </div>
+
+    <h3>Size</h3>
+    <p>
+        The searchbar's size is variable depending on the length of text that may be entered, the size of surrounding components, and more.
+        <br>
+        <br>
+        Generally, the size should adapt to different screen sizes and look appropriate.
+    </p>
 
     <h3>Placement</h3>
-    <p>*A demo would go here*</p>
+    <p>Below is an example of a searchbar on the Radish platform.</p>
+    <img src="../../../../assets/search-bar-ex1.png" class="example-image">
 </div>
