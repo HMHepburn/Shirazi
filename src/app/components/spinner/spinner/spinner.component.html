@@ -1,17 +1,49 @@
 <div class="spinner-container">
     <h1>Spinner</h1>
     <p>
-        Something something something something something something something something
+        Spinners are important for indicating to the user that an action is in progress.
+        <br>
+        <br>
+        This gives users confidence that they performed an action correctly.
     </p>
     <h3>Demo</h3>
-    <p>*A demo would go here*</p>
-
-    <h3>Typography</h3>
-    <p>*A demo would go here*</p>
+    <div class="spinner">
+        <i class="fas fa-sync fa-spin loading"></i>
+    </div>
 
     <h3>Size</h3>
-    <p>*A demo would go here*</p>
+    <p>Spinners should be sized to stay within their containers:</p>
+
+    <div class="layout-examples">
+        <div class="good-container">
+            <div class="good">
+                <div class="center-example">
+                    <button *ngIf="!savingGood" class="solid" (click)="goodButtonPress()">
+                        <strong>Click Me!</strong>
+                    </button>
+                    <button *ngIf="savingGood" class="solid">
+                        <i class="fas fa-sync fa-spin loading-good"></i>
+                    </button>
+                </div>
+            </div>
+            <p><b style="color:rgb(0, 170, 0)">DO:</b> Spinner is an appropriate size for the button.</p>
+        </div>
+        <div class="bad-container">
+            <div class="bad">
+                <div class="center-example">
+                    <button *ngIf="!savingBad" class="solid" (click)="badButtonPress()">
+                        <strong>Click Me!</strong>
+                    </button>
+                    <button *ngIf="savingBad" class="solid">
+                        <i class="fas fa-sync fa-spin loading"></i>
+                    </button>
+                </div>
+            </div>
+            <p><b style="color:rgb(211, 0, 0)">DON'T:</b> Spinner is too large and changes the button's size. This could be startling to a user.</p>
+        </div>
+    </div>
 
     <h3>Placement</h3>
-    <p>*A demo would go here*</p>
+    <p>Shown below is an example of a spinner's placement within the Radish platform.</p>
+    <img src="../../../../assets/spinner-example.png" class="example-image">
 </div>
