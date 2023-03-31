@@ -78,7 +78,7 @@
 
 .example-image {
     border-radius:1rem;
-    border: 0.1rem solid #181818;
+    border: 0.1rem solid var(--inverse-background);
     width:100%;
     margin-right:1rem;
 }

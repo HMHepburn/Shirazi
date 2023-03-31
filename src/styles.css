@@ -53,12 +53,4 @@ p {
     --accent3: #FF4155;
     --accent4: #5471B6;
     --accent5: #34497A;
-
-    /* 
-    Rename colours so that designers can reference this guide and 
-    reuse colour variables instead of putting in random hex codes 
-
-    Possible colours needed:
-    - 
-    */
 }
